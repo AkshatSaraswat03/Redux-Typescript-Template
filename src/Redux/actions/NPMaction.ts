@@ -4,7 +4,7 @@ import { NPMActionType } from '../constants/NPMconstants'
 import { NPMActionInterface } from '../interfaces/NPMInterfaceAction'
 
 
-export const listNPMPackages = (term: string) => async (dispatch: Dispatch<NPMActionInterface>) => {
+export const NPMaction = (term: string) => async (dispatch: Dispatch<NPMActionInterface>) => {
   try {
     dispatch({ type: NPMActionType.NPM_PACKAGE_REQUEST })
 

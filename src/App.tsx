@@ -1,9 +1,11 @@
 import React from 'react'
+import PackagesList from './components/PackagesList'
 
 const App = () => {
   return (
     <div>
-      hellobitch wassup
+      <h1>Search Repositories</h1>
+      <PackagesList />
     </div>
   )
 }
